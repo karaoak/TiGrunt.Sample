@@ -25,11 +25,11 @@ The following princples when creating these Grunt tasks were:
 Once the app has been 'pre-built', the other Grunt tasks help you to automatically create iOS Simulator and GenyMotion builds; on device builds with the right production keys + ppUids. As well helps you to create production releases with less or no error regarding versioning, provisioning or code signing.
 
 ###Custom tasks
-* tiapp: Set the app (brand) context 
-(custom tiapp.xml, app/config.json, etc.)
+* tiapp: Set the app (brand) context (custom tiapp.xml, app/config.json, etc.)
 * sim, geny, test: Kick off iOS Simulator + Genymotion for different devices easily
 * adhoc: Create iOS Adhoc builds and distribute these automatically
-* release: Create production IPAs + APKs * release: Jarsign and zipalign by hand using Android tools  (via grunt-shell)
+* release: Create production IPAs + APKs
+* release: Jarsign and zipalign using Android tools (via grunt-shell) instead of by Ti CLI
 
 	
 ###Grunt prebuilding instructions
