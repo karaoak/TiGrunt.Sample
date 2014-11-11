@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.karaoak.LogoQuiz</id>
+  <name>Logo Quiz</name>
+  <version>1.2.1</version>
+  <publisher>GOODLOGO>COM</publisher>
+  <url>http://goodlogo.com</url>
+  <description>A quiz all about guessing the correct logo.</description>
+  <copyright>2014 GOODLOGO.COM</copyright>
+  <icon>appicon.png</icon>
+  <prerendered-icon>true</prerendered-icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>false</analytics>
+  <guid>XXXXXX-9a2c-49d6-8a08-761de65ce4c5</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <ios>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleLightContent</string>
+      </dict>
+    </plist>
+  </ios>
+  <property name="ti.android.bug2373.disableDetection" type="bool">false</property>
+  <property name="ti.android.bug2373.restartDelay" type="int">500</property>
+  <property name="ti.android.bug2373.finishDelay" type="int">0</property>
+  <property name="ti.android.bug2373.skipAlert" type="bool">true</property>
+  <property name="ti.android.bug2373.message"/>
+  <property name="ti.android.bug2373.finishfalseroot" type="bool">true</property>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest android:installLocation="auto" android:versionCode="2" android:versionName="1.2.1">
+      <application android:theme="@style/FsTheme" android:hardwareAccelerated="true" android:largeHeap="true"/>
+      <uses-sdk android:maxSdkVersion="20" android:minSdkVersion="11" android:targetSdkVersion="19"/>
+      <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    </manifest>
+  </android>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="blackberry">false</target>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+    <target device="mobileweb">false</target>
+    <target device="tizen">false</target>
+  </deployment-targets>
+  <property name="ti.facebook.appid">167936226572505</property>
+  <modules>
+    <!--module platform="android">com.animecyc.animator</module-->
+    <module platform="iphone">ti.googleanalytics</module>
+    <module platform="iphone">facebook</module>
+    <module platform="iphone">dk.napp.social</module>
+    <module platform="android">ti.googleanalytics</module>
+    <module platform="android">facebook</module>
+    <module platform="android">bencoding.android.tools</module>
+  </modules>
+  <sdk-version>3.4.0.GA</sdk-version>
+  <plugins>
+    <plugin version="1.5.1">ti.alloy</plugin>
+    <!--plugin version="1.0">nl.mdnq</plugin-->
+  </plugins>
+  <property name="build.timestamp" type="string">1415701437693</property>
+</ti:app>

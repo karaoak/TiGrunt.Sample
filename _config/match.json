@@ -1,0 +1,49 @@
+{
+    "version_number": "1.2.1",
+    "version_code": "2",
+    "app_name": "Logo Match",
+    "publisher": "GOODLOGO>COM",
+    "url": "http://goodlogo.com",
+    "description": "Classic memory game with logos.",
+    "copyright": "2014 GOODLOGO.COM",
+    "guid": "XXXXXX-bbbc-4cf5-9233-a7744c9916ca",
+    "url_scheme": "logomatch",
+    "theme": "match",
+    "modules": {
+        "ios": [],
+        "android": []
+    },
+    "ios": {
+        "app_id": "com.karaoak.LogoMatch",
+
+        "device": {
+            "developerName": "Frank (XXXXXX)",
+            "ppUuid": "XXXXXX-d8f1-4181-8b1b-XXXXXX"
+        },
+        "dist_adhoc": {
+            "distributionName": "Medianique (XXXXXX)",
+            "ppUuid": "XXXXXX-bbf2-4a2b-8344-XXXXXX"
+        },
+        "dist_appstore": {
+            "distributionName": "Medianique (XXXXXX)",
+            "ppUuid": "XXXXXX-faf8-48ac-9a9b-XXXXXX"
+        }
+    },
+    "android": {
+        "app_id": "com.karaoak.logomatch",
+        "label": "Logo Match",
+        "keystore": "_config/keystores/logo-match.keystore",
+        "storepass": "****",
+        "keyalias": "logo-match"
+    },
+    "google": {
+        "ua": "UA-XX416853-1"
+    },
+    "facebook": {
+        "app_id": "167936226572505",
+        "url": "https://www.facebook.com/GoodLogo"
+    },
+    "twitter": {
+        "url": "https://twitter.com/goodblogo"
+    }
+}

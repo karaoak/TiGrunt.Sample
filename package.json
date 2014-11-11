@@ -1,0 +1,20 @@
+{
+  "name": "logo-game",
+  "version": "0.1.2",
+  "description": "GOODLOGO Ti Trivia Apps",
+  "private": true,
+  "author": "Medianique",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-ftp": "~1.0.1",
+    "grunt-shell": "~0.7.0",
+    "grunt-template": "~0.2.3",
+    "grunt-titanium": "~0.2.2",
+    "jit-grunt": "^0.8.0",
+    "load-grunt-config": "~0.10.0",
+    "load-grunt-tasks": "~0.6.0",
+    "tiapp.xml": "^0.2.0",
+    "ticons": "0.10.2",
+    "time-grunt": "~0.3.2"
+  }
+}

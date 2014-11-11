@@ -1,0 +1,29 @@
+## OS files
+.DS_Store
+
+## Aptana / Eclipse
+*.project
+*.settings
+
+## IntelliJ
+.idea
+
+## Titanium Classic
+build
+build.log
+tmp
+.map
+
+## Alloy
+Resources/*
+
+## Grunt / Node
+node_modules/*
+npm-debug.log
+
+## MDNQ Stuff (uncomment, now included for demo)
+## _builds/*
+## _config//developers
+
+## Optional (uncomment, now included for demo)
+## tiapp.xml 

@@ -1,0 +1,18 @@
+{
+    "ti_sdk_version": {
+        "ios": "3.4.0.GA",
+        "android": "3.4.0.GA"
+    },
+    "modules": {
+        "ios": [
+            "ti.googleanalytics",
+            "facebook",
+            "dk.napp.social"
+        ],
+        "android": [
+            "ti.googleanalytics",
+            "facebook",
+            "bencoding.android.tools"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "version_number": "1.2.1",
+    "version_code": "2",
+    "app_name": "Logo Quiz",
+    "publisher": "GOODLOGO>COM",
+    "url": "http://goodlogo.com",
+    "description": "A quiz all about guessing the correct logo.",
+    "copyright": "2014 GOODLOGO.COM",
+    "guid": "XXXXXX-9a2c-49d6-8a08-761de65ce4c5",
+    "url_scheme": "logoquiz",
+    "theme": "quiz",
+    "modules": {
+        "ios": [],
+        "android": []
+    },
+    "ios": {
+        "app_id": "com.karaoak.LogoQuiz",
+
+        "device": {
+            "developerName": "Frank (XXXXXX)",
+            "ppUuid": "XXXXXX-37f0-42a5-a742-XXXXXX"
+        },
+        "dist_adhoc": {
+            "distributionName": "Medianique (XXXXXX)",
+            "ppUuid": "XXXXXX-244d-41c0-9ed3-XXXXXX"
+        },
+        "dist_appstore": {
+            "distributionName": "Medianique (XXXXXX)",
+            "ppUuid": "XXXXXX-FEF6-4D55-B0DA-XXXXXX"
+        }
+    },
+    "android": {
+        "app_id": "com.karaoak.logoquiz",
+        "label": "Logo Quiz",
+        "keystore": "_config/keystores/logo-quiz.keystore",
+        "storepass": "****",
+        "keyalias": "logo-quiz"
+    },
+    "google": {
+        "ua": "UA-XX416853-2"
+    },
+    "facebook": {
+        "app_id": "167936226572505",
+        "url": "https://www.facebook.com/GoodLogo"
+    },
+    "twitter": {
+        "url": "https://twitter.com/goodblogo"
+    }
+}

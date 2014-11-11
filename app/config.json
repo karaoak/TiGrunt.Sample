@@ -1,0 +1,51 @@
+{
+    "global": {
+        "theme": "quiz",
+        "shuffle": true,
+        "google": {
+            "ua": "UA-XX416853-2"
+        },
+        "facebook": {
+            "app_id": "167936226572505",
+            "url": "https://www.facebook.com/GoodLogo"
+        },
+        "twitter": {
+            "url": "https://twitter.com/goodblogo"
+        },
+        "quiz_website_url": "http://quiz.goodlogo.com",
+        "match_website_url": "http://match.goodlogo.com",
+        "memory_website_url": "http://memory.goodlogo.com",
+        "quiz_share_image_url": "http://quiz.goodlogo.com/images/Feature_Graphic_1024x500px.png",
+        "match_share_image_url": "http://match.goodlogo.com/images/Feature_Graphic_1024x500px.png",
+        "memory_share_image_url": "http://memory.goodlogo.com/images/Feature_Graphic_1024x500px.png"
+    },
+    "env:development": {
+        "logging": true,
+        "shuffle": false
+    },
+    "env:test": {
+        "logging": true,
+        "shuffle": false
+    },
+    "env:production": {
+        "logging": false
+    },
+    "os:android": {
+        "match_appstore_url": "https://play.google.com/store/apps/details?id=com.karaoak.logomatch",
+        "quiz_appstore_url": "https://play.google.com/store/apps/details?id=com.karaoak.logoquiz",
+        "memory_appstore_url": "https://play.google.com/store/apps/details?id=com.karaoak.logomemory"
+    },
+    "os:ios": {
+        "match_appstore_url": "http://itunes.apple.com/us/app/id895729714",
+        "quiz_appstore_url": "https://itunes.apple.com/us/app/id448051074",
+        "memory_appstore_url": "https://itunes.apple.com/us/app/id440339733"
+    },
+    "dependencies": {
+        "com.jolicode.pageflow": "1.1",
+        "ti.ux.iconfont": "*",
+        "com.karaoak.button": "*",
+        "com.karaoak.browser": "*",
+        "com.karaoak.loader": "*",
+        "com.karaoak.modal": "*"
+    }
+}
