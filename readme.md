@@ -9,10 +9,10 @@ As in presented in my slides this sample code automates the branding of white la
 
 The Grunt tasks are setup so that you can 'pre build' an app's tiapp.xml, config.json and alloy.js based on an app context.
 
-###Principles
+###Objectives
 (Personal flavours disclaimer)
 
-The following princples when creating these Grunt tasks were:
+The following objective were taken into account when creating these Grunt tasks:
 
 * Keep app configurations DRY and in one(!) place
 * Keep configurations + keystores under version mgmt.
